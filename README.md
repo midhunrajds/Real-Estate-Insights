@@ -44,6 +44,8 @@ Based on preliminary observations, we hypothesize that certain factors such as l
 ## Methods
 To acquire the property data, we will employ web scraping techniques using Python library BeautifulSoup. The scraped data will undergo a thorough cleaning process to handle missing values, inconsistencies, and outliers. We will then utilize the Google Maps API to obtain the geographical coordinates for each property's location, enabling spatial analysis and mapping in Tableau.
 
+### Project Code
+- [Webscrape](webscrape.py)
 
 To perform web scraping and generate two tables—one for rental properties and another for sale properties—the Python libraries Requests and Beautiful Soup were employed. The web scraping process involved the following steps:
 
@@ -58,6 +60,10 @@ To perform web scraping and generate two tables—one for rental properties and 
 + Saving the data as tables: The extracted data for rental properties and sale properties were organized into separate tables, with columns representing the attributes of interest. These tables were then saved as datasets for further analysis and visualization.
 
 By following these steps, web scraping using Requests and Beautiful Soup facilitated the extraction and organization of property data from the website. The resulting tables provided a structured representation of the rental and sale properties, which could be utilized for analysis and dashboard creation.
+
+
+### Project Code
+- [GeoCode](geocoding.py)
 
 To geocode the unique location attributes from the rental and sale property tables, the Google Maps Geocoding API was utilized in conjunction with Python. The geocoding process involved the following steps:
 
@@ -74,6 +80,7 @@ To geocode the unique location attributes from the rental and sale property tabl
 + Saving the geocoded data: The newly created table was saved as a separate dataset for further analysis and visualization.
 
 By following these steps, the geocoding process successfully transformed the location attributes into their respective coordinates. This enabled the creation of maps and spatial analyses using the latitude and longitude data.
+
 
 
 ## Analysis
