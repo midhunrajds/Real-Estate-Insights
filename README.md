@@ -84,10 +84,20 @@ By following these steps, the geocoding process successfully transformed the loc
 
 
 ## Analysis
+
+![Calculated Field 1](./assets/tablerel.png)
 The data will be analyzed using various data science techniques and visualization tools. We will explore the relationships between property attributes (location, type, beds, baths) and prices through visualizations. Furthermore, we will calculate the price-to-rent ratio for different locations and property types to evaluate the financial feasibility of buying or renting properties.
 following details about the metrics used and the price-to-rent ratio:
 
 + Data Skewness and Outlier Handling: The collected property data may contain outliers, which can significantly skew the analysis and distort the insights gained. To address this issue, mean absolute deviation (MAD) and median were used to identify and filter out the outliers. This approach helps ensure that the remaining data represents a more accurate and representative picture of the property market.
+
+![Calculated Field 1](./assets/median.png)
+
+![Calculated Field 1](./assets/MAD.png)
+
+![Calculated Field 1](./assets/OLF.png)
+
++ When analyzing real estate prices, the median value is preferred over the average (mean) value due to its robustness to outliers. Real estate prices can be heavily influenced by extreme values or outliers, such as very high-end luxury properties or distressed properties sold at unusually low prices. These outliers can significantly impact the average value, pulling it towards their extremes. The median, on the other hand, is not as sensitive to outliers since it represents the middle value when the data is sorted. The median, being the middle value, is not influenced by the shape of the distribution and provides a more representative central tendency measure.
 
 + Price-to-Rent Ratio: The price-to-rent ratio is a metric commonly used to assess the financial viability of buying or renting a property. It is calculated by dividing the property sale price by the annual rental cost. In this project, the price-to-rent ratio was calculated for properties across different locations.
 
@@ -105,7 +115,7 @@ following details about the metrics used and the price-to-rent ratio:
 
 ## Conclusion
 The analysis will provide valuable insights into the residential property market, including trends in property prices, the price-to-rent ratio, and the impact of various factors on property values. These insights can assist individuals in making informed decisions about
-By leveraging these insights, you can make more informed decisions when it comes to buying, renting, or investing in properties
+By leveraging these insights, you can make more informed decisions when it comes to buying, renting, or investing in properties.
 
 
 
