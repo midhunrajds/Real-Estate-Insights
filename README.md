@@ -1,3 +1,13 @@
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![pandas](https://img.shields.io/badge/pandas-1.x-orange)](https://pandas.pydata.org/)
+[![numpy](https://img.shields.io/badge/numpy-1.x-blue)](https://numpy.org/)
+[![requests](https://img.shields.io/badge/requests-2.x-green)](https://requests.readthedocs.io/)
+[![beautifulsoup](https://img.shields.io/badge/beautifulsoup-4.x-purple)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+[![googlemaps](https://img.shields.io/badge/googlemaps-4.x-red)](https://pypi.org/project/googlemaps/)
+[![tableau](https://img.shields.io/badge/tableau-2021.1-blue)](https://www.tableau.com/)
+[![microsoft excel](https://img.shields.io/badge/microsoft%20excel-2019-blue)](https://www.microsoft.com/en-us/microsoft-365/excel)
+
+
 # Real Estate Data Analytics
 
 
