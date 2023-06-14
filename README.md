@@ -128,6 +128,8 @@ The analysis will provide valuable insights into the residential property market
 By leveraging these insights, you can make more informed decisions when it comes to buying, renting, or investing in properties.
 
 
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 
 
